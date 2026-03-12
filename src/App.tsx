@@ -23,7 +23,7 @@ const bentoItems = [
   subtitle: "Y se nota en todo lo que creás.", 
   icon: <Zap className="w-8 h-8" />, 
   className: "md:col-span-2 md:row-span-1 bg-zinc-900",
-  img: "/images/WhatsApp Image 2026-03-12 at 13.56.45.jpeg"
+  img: "/images/WhatsApp Image 2026-03-12 at 13.59.22.jpeg"
 },
   { 
   title: "El mejor diseñador.", 
@@ -227,12 +227,12 @@ export default function App() {
               Hacés que todos se sientan parte de algo gigante.
             </p>
             <div className="relative aspect-square rounded-[3rem] overflow-hidden glass">
-              <img 
-                src="https://picsum.photos/seed/aesthetic/800/800" 
-                alt="Aesthetic" 
-                referrerPolicy="no-referrer"
-                className="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity duration-500"
-              />
+<img 
+  src="/images/WhatsApp Image 2026-03-12 at 13.56.45.jpeg" 
+  alt="Aesthetic" 
+  referrerPolicy="no-referrer"
+  className="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity duration-500"
+/>
               <div className="absolute inset-0 flex items-center justify-center">
                 <Layout className="w-20 h-20 text-white/20" />
               </div>
