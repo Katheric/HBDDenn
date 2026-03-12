@@ -18,41 +18,41 @@ import {
 import { useRef, useState, useEffect } from "react";
 
 const bentoItems = [
+{ 
+  title: "Sos un crack.", 
+  subtitle: "Y se nota en todo lo que creás.", 
+  icon: <Zap className="w-8 h-8" />, 
+  className: "md:col-span-2 md:row-span-1 bg-zinc-900",
+  img: "/images/WhatsApp Image 2026-03-12 at 13.56.45.jpeg"
+},
   { 
-    title: "Sos un crack.", 
-    subtitle: "Y se nota en todo lo que creás.", 
-    icon: <Zap className="w-8 h-8" />, 
-    className: "md:col-span-2 md:row-span-1 bg-zinc-900",
-    img: "https://picsum.photos/seed/tech/800/400"
-  },
-  { 
-    title: "El mejor diseñador.", 
-    subtitle: "Pero sobre todo, una gran persona.", 
-    icon: <Palette className="w-8 h-8" />, 
-    className: "md:col-span-1 md:row-span-2 bg-white text-black",
-    img: "https://picsum.photos/seed/design/400/800"
-  },
-  { 
-    title: "Noble de corazón.", 
-    subtitle: "Gigante en talento.", 
-    icon: <Heart className="w-8 h-8 text-red-500" />, 
-    className: "md:col-span-1 md:row-span-1 bg-zinc-800",
-    img: "https://picsum.photos/seed/heart/400/400"
-  },
-  { 
-    title: "Brillante con las ideas.", 
-    subtitle: "Bueno con la gente.", 
-    icon: <Sparkles className="w-8 h-8 text-yellow-400" />, 
-    className: "md:col-span-1 md:row-span-1 bg-zinc-900",
-    img: "https://picsum.photos/seed/light/400/400"
-  },
-  { 
-    title: "Tierno en los detalles.", 
-    subtitle: "Que nadie más ve.", 
-    icon: <Star className="w-8 h-8 text-blue-400" />, 
-    className: "md:col-span-2 md:row-span-1 bg-zinc-800 overflow-hidden",
-    img: "https://picsum.photos/seed/details/800/400"
-  },
+  title: "El mejor diseñador.", 
+  subtitle: "Pero sobre todo, una gran persona.", 
+  icon: <Palette className="w-8 h-8" />, 
+  className: "md:col-span-1 md:row-span-2 bg-white text-black",
+  img: "/images/WhatsApp Image 2026-03-12 at 14.06.58.jpeg"
+},
+{ 
+  title: "Noble de corazón.", 
+  subtitle: "Gigante en talento.", 
+  icon: <Heart className="w-8 h-8 text-red-500" />, 
+  className: "md:col-span-1 md:row-span-1 bg-zinc-800",
+  img: "/images/WhatsApp Image 2026-03-12 at 14.05.57.jpeg"
+},
+{ 
+  title: "Brillante con las ideas.", 
+  subtitle: "Bueno con la gente.", 
+  icon: <Sparkles className="w-8 h-8 text-yellow-400" />, 
+  className: "md:col-span-1 md:row-span-1 bg-zinc-900",
+  img: "/images/WhatsApp Image 2026-03-12 at 14.07.17.jpeg"
+},
+{ 
+  title: "Tierno en los detalles.", 
+  subtitle: "Que nadie más ve.", 
+  icon: <Star className="w-8 h-8 text-blue-400" />, 
+  className: "md:col-span-2 md:row-span-1 bg-zinc-800 overflow-hidden",
+  img: "/images/WhatsApp Image 2026-03-12 at 14.11.09.jpeg"
+},
 ];
 
 const qualities = [
